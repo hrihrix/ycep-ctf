@@ -1,0 +1,5 @@
+00010001 00000001 00000100 00100000 00100000 00000000 00001100 00011000 00000000 00111011 00101011 00100101 00111101 00111010 00100111 00100101
+
+Hey this is Nee again <3 I keep forgetting and misplacing my stuff! 
+Please help me decode this XOR! Sadly, the key is invisible :(
+

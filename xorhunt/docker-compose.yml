@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  Misc:
+    image: linuxserver/openssh-server
+    container_name: xorhunt
+    hostname: NEE-server 
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Singapore
+      - SUDO_ACCESS=false 
+      - PASSWORD_ACCESS=true 
+      - USER_PASSWORD=nee 
+      - USER_NAME=nee 
+    volumes:
+      - ./source:/config/here/is/your/flag/
+    ports:
+      - 789:2222
+    restart: unless-stopped
