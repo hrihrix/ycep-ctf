@@ -1,0 +1,9 @@
+[Unit]
+Description = ctf
+
+[Service]
+WorkingDirectory= /root/ycepctf
+ExecStart= /root/ycepctf/start-challenges.sh
+
+[Install]
+WantedBy=multi-user.target
